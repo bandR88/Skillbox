@@ -26,3 +26,5 @@ else:
 
     b = y2 - k * x2
     print("y = ", k, " * x + ", b)
+
+
