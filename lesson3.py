@@ -1,12 +1,6 @@
+c = input('Выберите операцию: ')
 
-while True:
-    c = input('Выберите операцию: ')
-    if c in '+-*/':
-        break
-    else:
-        print('Ошибка ввода!')
-
-amount = int(input('Сколько операндов? ')) 
+amount = int(input('Сколько операндов? '))
 count = 1
 number = int(input(f'Введите {count} число: '))
 result = number
