@@ -19,4 +19,3 @@ while (amount - 1) != 0:
         result /= number
     number_str += c + str(number)
 print(f'{number_str} = {result}')
-print('mother facker')
